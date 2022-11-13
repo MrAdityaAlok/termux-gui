@@ -18,7 +18,7 @@ class Settings private constructor() {
         private const val LOGLEVEL_KEY = "loglevel"
         private const val LOGLEVEL_DEFAULT = 0
         private const val JAVASCRIPT_KEY = "javascript"
-        private const val JAVASCRIPT_DEFAULT = false
+        private const val JAVASCRIPT_DEFAULT = true
         val instance = Settings()
     }
     
